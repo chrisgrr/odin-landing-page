@@ -19,3 +19,20 @@ body {
 a {
   text-decoration: none;
 }
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.sign-up .right {
+  flex-basis: 49%;
+}
+
+.sign-up .right {
+  flex-basis: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
