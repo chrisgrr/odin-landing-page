@@ -1,3 +1,7 @@
+* {
+  border: 1px solid red;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -35,4 +39,25 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.information {
+}
+
+.information h2 {
+  text-align: center;
+}
+
+.information .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.information .box {
+  border: 5px solid #3882F6;
+  flex-basis: 160px;
+  text-align: center;
 }
