@@ -63,7 +63,6 @@ a {
 }
 
 .quotation {
-  width: 50%;
   align-self: center;
 }
 
@@ -74,4 +73,18 @@ blockquote {
 blockquote + p {
   margin: 0;
   text-align: right;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action .box {
+  display: flex;
+  align-items: center;
+}
+
+.left h3 {
+  margin: 0;
 }
