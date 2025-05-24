@@ -88,3 +88,10 @@ blockquote + p {
 .left h3 {
   margin: 0;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
