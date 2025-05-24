@@ -54,6 +54,7 @@ a {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  margin: 0;
 }
 
 .sign-up .subtext {
@@ -61,15 +62,31 @@ a {
   color: #E5E7EB;
 }
 
-.sign-up .right {
-  flex-basis: 49%;
+.sign-up .left {
+  flex-basis: 50%;
 }
 
 .sign-up .right {
-  flex-basis: 49%;
+  flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #374545;
+}
+
+.sign-up img {
+  width: 275px;
+  height: auto;
+}
+
+button {
+  background: #3882F6;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 5px 30px;
+  border: 2px solid #3882F6;
+  border-radius: 5px;
 }
 
 .information {
