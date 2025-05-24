@@ -110,9 +110,17 @@ button {
 }
 
 .information .box {
-  border: 5px solid #3882F6;
+  color: #8e959d;
   flex-basis: 160px;
   text-align: center;
+}
+
+.information .box img {
+  border: 5px solid #3882F6;
+  width: 160px;
+  height: 160px;
+  height: auto;
+  border-radius: 15px;
 }
 
 .quotation {
