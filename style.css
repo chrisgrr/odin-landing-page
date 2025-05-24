@@ -9,7 +9,16 @@ body {
   margin: 0;
 }
 
+.sign-up,
+.information,
+.quotation,
+.call-to-action,
+.footer {
+  padding: 120px 15%;
+}
+
 .header {
+  padding: 0 15%;
   display: flex;
   background-color: #1F2937;
   justify-content: space-between;
@@ -39,6 +48,8 @@ a {
   background-color: #1F2937;
   justify-content: center;
   align-content: stretch;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .sign-up h1 {
@@ -64,6 +75,8 @@ a {
 }
 
 .information {
+  padding-top: 0px;
+  padding-bottom: 120px;
 }
 
 .information h2 {
@@ -71,6 +84,7 @@ a {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+  margin: 40px 0;
 }
 
 .information .boxes {
@@ -90,6 +104,8 @@ a {
 .quotation {
   align-self: center;
   background-color: #E5E7EB;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 blockquote {
@@ -126,4 +142,6 @@ blockquote + p {
   align-items: center;
   justify-content: center;
   color: #F9FAF8;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
