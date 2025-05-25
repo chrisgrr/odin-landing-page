@@ -31,7 +31,7 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 8px;
+  gap: 24px;
 }
 
 a {
@@ -56,6 +56,7 @@ a {
 .sign-up .subtext {
   font-size: 18px;
   color: #E5E7EB;
+  margin-bottom: 10px;
 }
 
 .sign-up .left {
@@ -83,6 +84,7 @@ button {
   padding: 5px 30px;
   border: 2px solid #3882F6;
   border-radius: 5px;
+  min-width: 124px;
 }
 
 .information {
@@ -133,6 +135,9 @@ blockquote {
 
 blockquote + p {
   margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  padding-right: 40px;
   text-align: right;
 }
 
