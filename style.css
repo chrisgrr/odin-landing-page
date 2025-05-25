@@ -1,7 +1,3 @@
-* {
-  border: 1px solid red;
-}
-
 body {
   font-family: 'Roboto';
   display: flex;
@@ -147,11 +143,32 @@ blockquote + p {
 }
 
 .call-to-action .box {
+  padding: inherit 15%;
+  flex-grow: 1;
+  background-color: #3882F6;
+  border-radius: 15px;
   display: flex;
   align-items: center;
 }
 
+.call-to-action .left {
+  flex-grow: 3;
+  padding: 50px 0px 50px 100px;
+}
+
+.call-to-action .right {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 50px 100px 50px 0px;
+}
+
+.call-to-action button {
+  border: 2px solid white;
+}
+
 .left h3 {
+  font-size: 24px;
   margin: 0;
 }
 
